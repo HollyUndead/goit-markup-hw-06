@@ -365,6 +365,17 @@
                         </li>
                     </ul>
                 </div>
+                <div class="email-for-newsletter">
+                    <h3 class="footer-soc-text">Підпишіться на розсилку</h3>
+                    <div class="follow-section-wrap">
+                        <input type="text" name="email-for-newsletter" class="follow-input-email" placeholder="E-mail">
+                        <button type="button" class="follow-button">Підписатися
+                            <svg class="follow-button-ico" width="24" height="24">
+                                <use href="./images/icons.svg#icon-icon-send"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
             </div>
         </footer>
 
@@ -375,6 +386,53 @@
                         <use href="./images/icons.svg#icon-Vector"></use>
                     </svg>
             </button>
+
+            <form class="modal-form">    
+                    <h2 class="submit-form-title">Заліште свої дані, ми вам передзвонимо</h2>
+    
+                    <div class="input-wrap">
+                        <label for="name" class="text-input-lable">Ім'я</label>
+                        <div class="icon-wrap">
+                            <input type="text" id="name" class="text-input" name="user-name">
+                            <svg class="input-icon">
+                                <use href="./images/icons.svg#icon-person-black-1"></use>
+                            </svg>
+                        </div>
+                    </div>
+                
+                    <div class="input-wrap">
+                        <label for="phonenumber" class="text-input-lable">Телефон</label>
+                        <div class="icon-wrap">
+                            <input type="tel" id="phonenumber" class="text-input" name="user-phonenumber">
+                            <svg class="input-icon">
+                                <use href="./images/icons.svg#icon-phone-black-1"></use>
+                            </svg>
+                        </div>
+                    </div>
+                
+                    <div class="input-wrap">
+                        <label for="email" class="text-input-lable">Пошта</label>
+                        <div class="icon-wrap">
+                            <input type="email" id="email" class="text-input" name="user-email">
+                            <svg class="input-icon">
+                                <use href="./images/icons.svg#icon-email-black-1"></use>
+                            </svg>
+                        </div>
+                    </div>
+                
+                    <div class="input-wrap">
+                        <label for="comment" class="text-input-lable">Коментар</label>
+                        <textarea id="comment" class="comment-input text-input" name="user-comment" placeholder="Введіть текс"></textarea>
+                    </div>
+    
+                    <div class="checkbox-wrap">
+                        <input type="checkbox" id="agree-with-conditions" class="agree-with-conditions visually-hidden">
+                        <label for="agree-with-conditions" class="agree-with-conditions-lable">Погоджуюся з розсилкою та приймаю <a class="conditions-link">Умови договору</a></label>
+                    </div>
+    
+                    <button type="submit" class="make-order submit">Відправити</button>
+            </form>
+
             </div>
         </div>
 
